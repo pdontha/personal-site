@@ -3,7 +3,7 @@ body {
     padding-top: 10%;
     font-family: 'Work-Sans' , sans-serif;
     font-weight:300;
-    background-color: whitesmoke;
+    background-color: rgb(149, 172, 149);
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 
 
 header {
-    background: rgb(34, 34, 34);
+    background: rgb(15, 22, 15);
     width: 100%;
     top: 0;
     position: fixed;
@@ -23,6 +23,12 @@ header::after{
     content: '';
     display: table;
     clear: both;
+}
+
+.home {
+    padding-bottom: 30%;
+    text-align: center;
+    padding-bottom: 50%;
 }
 
 
@@ -77,3 +83,50 @@ nav a::before{
 nav a:hover::before {
     width:100%;
 }
+
+h4 {
+    font-family: 'Work-Sans' , sans-serif;
+    padding-top: 10%;
+    color: rgb(77, 94, 77);
+}
+
+h1 {
+    color: rgb(40, 61, 40);
+}
+.about {
+    padding-bottom: 30%;
+    text-align: center;
+    padding-bottom: 50%;
+}
+
+.contact {
+    padding-bottom: 30%;
+    text-align: center;
+    padding-bottom: 50%;
+    
+   
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(40, 61, 40);
+   
+   
+}
+
+.contact a:hover {
+    color: white ;
+}
+
+.resume a:hover {
+    color: white;
+}
+
+.resume {
+    color: rgb(33, 49, 33);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
